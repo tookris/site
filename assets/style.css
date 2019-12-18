@@ -67,6 +67,40 @@ nav li:hover a{
     padding: 15px 30px 20px 30px;
 }
 
+section{
+    width: 90%;
+    min-height: 300px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float:left;
+    width: 70%;
+}
+
+.sec::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.orange{
+  margin-bottom: 0px;
+
+}
+.leftexp{
+    width: 45%;
+    float: left;
+}
+.rightexp{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
 form{
   background-color:crimson ;
   background:linear-gradient(-80deg, gray, red);
@@ -95,7 +129,7 @@ div p {
     padding-bottom: 80px;
     padding-top: 70px;
     text-align: center;
-    color: red;
+    color: darkred;
     font-family: 'Special Elite', sans-serif;
     font-size: 35px;
     font-weight: 400px;
