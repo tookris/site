@@ -12,6 +12,15 @@ h1{
 header{
   height: 100px;
 }
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: crimson;
+    border-top: 2px solid darkred;
+    background:linear-gradient(-80deg, gray, red);
+    opacity: 80% ;
+}
 
 nav{
     width: 100%;
@@ -61,7 +70,7 @@ nav li:hover a{
 form{
   background-color:crimson ;
   background:linear-gradient(-80deg, gray, red);
-  opacity: 80% solid ;
+  opacity: 80% ;
   width: 600px;
   padding: 20px;
 
