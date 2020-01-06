@@ -7,112 +7,50 @@ h1{
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-    color: red;
+    color: black;
 }
+
 header{
   height: 100px;
 }
+
 footer{
     height: 80px;
     padding-top: 30px;
-    text-align: center;
-    background-color: crimson;
-    border-top: 2px solid darkred;
-    background:linear-gradient(-80deg, gray, red);
-    opacity: 80% ;
 }
 
 nav{
     width: 100%;
-    background-color:crimson;
-
 }
+
 nav ul{
     margin: 0px;
     padding: 0px;
 }
+
 nav li{
     list-style-type: none;
     float: left;
 }
+
 nav a{
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
-    color: crimson;
     text-transform: uppercase;
     font-size: 15px;
 }
-.menu-acc:hover{
-    border-top: 5px solid crimson;
-    background-color: darkred;
-}
-.menu-pre:hover{
-    border-top: 5px solid crimson;
-    background-color: darkred;
-}
-.menu-cv:hover{
-    border-top: 5px solid crimson;
-    background-color: darkred;
-}
-.menu-con:hover{
-    border-top: 5px solid crimson;
-    background-color: darkred;
-}
-.menu-men:hover{
-    border-top: 5px solid crimson;
-    background-color: darkred;
-}
-nav li:hover a{
-    padding: 15px 30px 20px 30px;
-}
 
-section{
-    width: 90%;
-    min-height: 300px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-
-.left{
-    float: left;
-    width: 30%;
-}
-.right{
-    float:left;
-    width: 70%;
-}
-
-.sec::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.orange{
-  margin-bottom: 0px;
-
-}
-.leftexp{
-    width: 45%;
-    float: left;
-}
-.rightexp{
-    width: 50%;
-    float: left;
-    margin-left: 5%;
-}
 form{
   background-color:crimson ;
   background:linear-gradient(-80deg, gray, red);
   opacity: 80% ;
   width: 600px;
   padding: 20px;
-
 }
 form div {
   padding: 10px 0;
 }
-
 form div label {
   float: left;
   width: 240px;
@@ -120,17 +58,16 @@ form div label {
   text-align: right;
 }
 form div input[type="submit"] {
-  background-color: red;
   color: black;
   font-size: 1.5em;
   margin: 0 0 0 250px;
 }
 div p {
-    padding-bottom: 80px;
-    padding-top: 70px;
-    text-align: center;
-    color: darkred;
-    font-family: 'Special Elite', sans-serif;
-    font-size: 35px;
-    font-weight: 400px;
+  padding-bottom: 80px;
+  padding-top: 70px;
+  text-align: center;
+  color: darkred;
+  font-family: 'Special Elite', sans-serif;
+  font-size: 35px;
+  font-weight: 400px;
 }

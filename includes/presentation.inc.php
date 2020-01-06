@@ -2,7 +2,7 @@
     <h1> Qui Suis-Je ??</h1>
       <div class="sec">
           <div class="left">
-              <p>Photo a venir</p>
+              <img src="./assets./geek.jpg" alt="moi" height="50%" width="50%">
                   </div>
           <div class="right">
               <p>Je m'appelle Kris,j'ai 33ans et je vis à RouenZombie</p>
