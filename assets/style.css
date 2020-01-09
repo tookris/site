@@ -1,7 +1,5 @@
 @import url("reset.css");
 
-
-
 body{
 
     background-image:  url("bio3.jpg");
@@ -31,7 +29,8 @@ h3 {
     color: orange;
 }
 
-footer{
+footer {
+
     color: blue;
     font-size: 25px;
     height: 80px;
@@ -65,63 +64,63 @@ section {
     margin-bottom: 10px;
 }
 .left{
-  float: left;
-  width: 50%;
+    float: left;
+    width: 50%;
 }
 .right{
-  float:left;
-  width: 50%;
+    float:left;
+    width: 50%;
 }
 
 .sousleft{
-  width: 50%;
-  float: left;
+    width: 50%;
+    float: left;
 
 }
 
 .orange  p {
-  font-size: 50px;
-  color: orange;
+    font-size: 50px;
+    color: orange;
 }
 
 .Presentation p{
-  color: orange;
-  font-size: 50px;
+    color: orange;
+    font-size: 50px;
 }
 
 .mentions p{
-  color: orange;
-  font-size: 50px;
+    color: orange;
+    font-size: 50px;
 }
 
 .competences p{
-  font-size: 35px;
-  color: orange;
+    font-size: 35px;
+    color: orange;
 }
 form{
 
-  background-color:crimson ;
-  background:linear-gradient(-80deg, gray, red);
-  opacity: 80% ;
-  width: 600px;
-  padding: 20px;
+    background-color:crimson ;
+    background:linear-gradient(-80deg, gray, red);
+    opacity: 80% ;
+    width: 600px;
+    padding: 20px;
 }
 
 form div {
 
-  padding: 10px 0;
+    padding: 10px 0;
 }
 
 form div label {
 
-  float: left;
-  width: 240px;
-  padding: 0 10px 0 0;
-  text-align: right;
+    float: left;
+    width: 240px;
+    padding: 0 10px 0 0;
+    text-align: right;
 }
 
 form div input[type="submit"] {
-  color: black;
-  font-size: 1.5em;
-  margin: 0 0 0 250px;
+    color: black;
+    font-size: 1.5em;
+    margin: 0 0 0 250px;
 }

@@ -1,4 +1,4 @@
-  <section class="Parcours">
+<section class="Parcours">
       <h1>Parcours et Experiences</h1>
               <div class="left">
                 <h3>2018 2019</h3>
@@ -24,7 +24,7 @@
                     <div class="right">
                       <h3>Restauration</h3>
                     </div>
-    </section>
+</section>
       <section class="competences">
           <h1>Competences</h1>
             <div class="sousleft">
@@ -40,3 +40,4 @@
                   <p>atom</p>
               </div>
       </section>
+    
