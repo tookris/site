@@ -10,7 +10,7 @@ $year = date('Y');
       <i class="fab fa-linkedin"style="font-size:40px;color:lightblue;"></i>
       <i class="fab fa-snapchat"style="font-size:40px;color:lightblue;"></i>
 
-  <p><a href="./assets/doc/CV1.pdf"> CV ICI</a></p>
+  <p><a href="./assets/doc/CV1.pdf" target="_blank"> CV ICI</a></p>
 
 </footer>
 </body>
