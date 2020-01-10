@@ -1,42 +1,28 @@
-<section class="Parcours">
+<section class="row">
+  <div id="teste">
     <h1>Parcours et Experiences</h1>
-        <div class="left">
-            <h3>2018 2019</h3>
-        </div>
-          <div class="right">
-            <h3>Programmateur et expert gamer</h3>
-          </div>
-        <div class="left">
-            <h3>2017 2018</h3>
-        </div>
-          <div class="right">
-            <h3>Programmateur et expert gamer</h3>
-          </div>
-        <div class="left">
-            <h3>2015-2017</h3>
-        </div>
-          <div class="right">
-            <h3>Restauration</h3>
-          </div>
-        <div class="left">
-            <h3>2014-2017</h3>
-        </div>
-          <div class="right">
-            <h3>Restauration</h3>
-          </div>
+</div>
+<div class="column">
+    <h2>informatique</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    </div>
+
+<div class="column">
+    <h2>restauration</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    </div>
 </section>
-      <section class="competences">
-          <h1>Competences</h1>
-            <div class="sousleft">
-                  <p>html/css</p>
-              </div>
-            <div class="sousleft">
-                  <p>gamer</p>
-              </div>
-            <div class="sousleft">
-                  <p>PHP/SQL</p>
-              </div>
-            <div class="sousleft">
-                  <p>atom</p>
-              </div>
+    <section class="row">
+      <div id="teste">
+        <h1>Competences</h1>
+      </div>
+        <div class="column">
+          <h2>PHP/JAVASCRISPT</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+
+        <div class="column">
+          <h2>HTML/CSS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
       </section>

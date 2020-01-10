@@ -1,7 +1,8 @@
 <section class="Presentation">
+  <div id="teste">
     <h1> Qui Suis-Je ??</h1>
-          <div class="right">
-              <p>Je m'appelle Kris,j'ai 33ans et je vis à RouenZombie</p>
-              <p>Je suis un grand fan de jeux vidéos, informatique</p>
-          </div>
+  </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisici </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisici </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisici </p>
 </section>

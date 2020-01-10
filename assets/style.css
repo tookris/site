@@ -1,5 +1,11 @@
 @import url("reset.css");
 
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
 body{
 
     background-image:  url("bio3.jpg");
@@ -8,10 +14,40 @@ body{
 header nav ul li{
 
     display: inline-block;
-    text-decoration: none;
     padding: 20px 30px;
-    text-transform: uppercase;
-    font-size: 25px;
+    font-size: 30px;
+
+}
+
+#home {
+  width: 25px;
+  height: 30px;
+
+}
+.header {
+
+    padding: 20px;
+    text-align: center;
+}
+.column {
+    color: orange;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#teste{
+  -webkit-animation: mymove 5s infinite;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {text-shadow: 20px 30px 40px red;}
 }
 
 h1 {
@@ -19,84 +55,55 @@ h1 {
     font-size: 60px;
     font-weight: normal;
     text-align: center;
-    color: red;
+
 }
 
-h3 {
+h2{
 
-    font-size: 40px;
-    font-weight: normal;
-    color: orange;
-}
+    text-shadow: 3px 2px red;
+    font-size: 45px;
+    font-style: oblique;
 
-footer {
-
-    color: blue;
-    font-size: 25px;
-    height: 80px;
-    padding-top: 30px;
 }
 
 .menu-acc:hover, .accueil{
-    border-top: 5px solid red;
+
     background-color: orange;
 }
+
 .menu-pre:hover, .presentation{
-    border-top: 5px solid red;
+
     background-color: orange;
 }
+
 .menu-cv:hover, .cv{
-    border-top: 5px solid red;
+
     background-color:orange;
 }
+
 .menu-con:hover, .contact{
-    border-top: 5px solid red;
+
     background-color: orange;
 }
-.menu-men:hover,  {
-    border-top: 5px solid red;
+
+.menu-men:hover {
+
     background-color: orange;
 }
-section {
-    width: 100%;
-    min-height: 300px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-.left{
-    float: left;
-    width: 50%;
-}
-.right{
-    float:left;
-    width: 50%;
-}
 
-.sousleft{
-    width: 50%;
-    float: left;
+.Presentation  p{
 
-}
-
-.orange  p {
-    font-size: 50px;
-    color: orange;
-}
-
-.Presentation p{
     color: orange;
     font-size: 50px;
 }
 
-.mentions p{
+.mentions {
+
     color: orange;
     font-size: 50px;
+    font-style: oblique;
 }
 
-.competences p{
-    font-size: 35px;
-    color: orange;
-}
 form{
 
     background-color:crimson ;
@@ -123,4 +130,20 @@ form div input[type="submit"] {
     color: black;
     font-size: 1.5em;
     margin: 0 0 0 250px;
+}
+
+footer {
+  background-color: red;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+}
+
+footer p a{
+  display: inline-block;
+  float:left;
+  font-size: 25px;
 }

@@ -6,5 +6,6 @@
       <meta name="description" content="Presentation du site Kris">
         <title>Mon Site</title>
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
