@@ -3,6 +3,7 @@ $year = date('Y');
 ?>
 
 <footer>
+
   <p>&copy; <?=$year ?> kris</p>
 
       <i class="fab fa-facebook"style="font-size:40px;color:lightblue;"></i>

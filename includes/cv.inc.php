@@ -1,3 +1,15 @@
+
+<script>
+$( document).click(function() {
+  if ( $( "#teste" ).first().is( ":hidden" ) ) {
+    $( "#teste" ).show( "slow" );
+  } else {
+    $( "#teste" ).slideUp();
+  }
+});
+</script>
+
+
 <section class="row">
 	<div id="teste">
 		<h1>Parcours et Experiences</h1>

@@ -157,8 +157,13 @@ footer p a{
     animation: para 5s infinite;
 
   }
+
   @keyframes para {
     50% {transform: rotate(360deg);}
   }
 
-}
+  #but1 {
+    width: 89%;
+    display: inline-block;
+    text-align: center;
+  }
